@@ -24,9 +24,6 @@ env/
 
 # Results and plots
 **/results/plots/
-*.png
-*.jpg
-*.jpeg
 # Keep metrics.json files for comparison
 # **/results/metrics.json is NOT ignored
 

@@ -27,6 +27,8 @@ python timesfm/benchmark_timesfm.py \
   --prediction-length 96
 ```
 
+![結果サンプル](images/timesfm_multiple_predictions.png)
+
 ### Chronos ベンチマーク
 
 ```bash
@@ -43,6 +45,8 @@ python chronos/benchmark_chronos.py \
   --num-samples 50 \
   --model-name amazon/chronos-t5-base
 ```
+
+![結果サンプル](images/chronos_multiple_predictions.png)
 
 ### PatchTST ベンチマーク
 
@@ -66,6 +70,8 @@ python patchtst/benchmark_patchtst.py \
 # 2回目以降の実行では保存されたモデルを自動的に読み込み、訓練をスキップします
 # 保存されたモデルを使用しない場合は --no-use-saved-model を指定してください
 ```
+
+![結果サンプル](images/patchtst_multiple_predictions.png)
 
 ## ベンチマーク結果
 
