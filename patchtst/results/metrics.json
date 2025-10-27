@@ -7,25 +7,25 @@
     "num_attention_heads": 4
   },
   "training": {
-    "train_samples": "N/A (used saved model)",
+    "train_samples": 9234,
     "eval_samples": 1027,
     "train_ratio": 0.9,
-    "epochs": 5,
+    "epochs": 50,
     "batch_size": 128,
     "learning_rate": 0.001,
-    "training_time": 0,
-    "final_train_loss": 0,
-    "used_saved_model": true
+    "training_time": 25.44387125968933,
+    "final_train_loss": 8.664700804490309,
+    "used_saved_model": false
   },
   "metrics": {
-    "mse": 14.18811548458571,
-    "mae": 2.86614297007521,
-    "rmse": 3.7667114947372475,
-    "mape": 25.408275293033178,
-    "inference_time": 0.010468006134033203,
-    "inference_time_per_sample": 0.002093601226806641
+    "mse": 5.062044002652012,
+    "mae": 1.7948126602503989,
+    "rmse": 2.24989866497405,
+    "mape": 15.839957089712668,
+    "inference_time": 0.0029485225677490234,
+    "inference_time_per_sample": 0.000982840855916341
   },
-  "num_test_samples": 5,
+  "num_test_samples": 3,
   "context_length": 96,
   "prediction_length": 96,
   "dataset": "ETTh1",
