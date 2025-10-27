@@ -1,0 +1,55 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+venv/
+env/
+
+# Data files (large datasets)
+# Keep data/ directory but ignore large files
+# data/*.csv files can be added individually if needed
+
+# Model files
+**/saved_model/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Results and plots
+**/results/plots/
+*.png
+*.jpg
+*.jpeg
+# Keep metrics.json files for comparison
+# **/results/metrics.json is NOT ignored
+
+# Logs
+*.log
+nohup.out
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Test and coverage
+.pytest_cache/
+.coverage
+htmlcov/

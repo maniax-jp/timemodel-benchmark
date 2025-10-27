@@ -1,0 +1,17 @@
+{
+  "model": "Chronos",
+  "model_version": "amazon/chronos-t5-tiny",
+  "metrics": {
+    "mse": 9.983197934014925,
+    "mae": 2.440546308333675,
+    "rmse": 3.159619903408466,
+    "mape": 37.538973438650835,
+    "inference_time": 0.4097931385040283,
+    "inference_time_per_sample": 0.13659771283467612
+  },
+  "num_samples": 3,
+  "context_length": 96,
+  "prediction_length": 96,
+  "dataset": "ETTh1",
+  "target_column": "OT"
+}

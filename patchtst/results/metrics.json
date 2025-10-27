@@ -1,0 +1,33 @@
+{
+  "model": "PatchTST",
+  "model_config": {
+    "patch_length": 16,
+    "num_hidden_layers": 3,
+    "d_model": 128,
+    "num_attention_heads": 4
+  },
+  "training": {
+    "train_samples": "N/A (used saved model)",
+    "eval_samples": 1027,
+    "train_ratio": 0.9,
+    "epochs": 5,
+    "batch_size": 128,
+    "learning_rate": 0.001,
+    "training_time": 0,
+    "final_train_loss": 0,
+    "used_saved_model": true
+  },
+  "metrics": {
+    "mse": 14.18811548458571,
+    "mae": 2.86614297007521,
+    "rmse": 3.7667114947372475,
+    "mape": 25.408275293033178,
+    "inference_time": 0.010468006134033203,
+    "inference_time_per_sample": 0.002093601226806641
+  },
+  "num_test_samples": 5,
+  "context_length": 96,
+  "prediction_length": 96,
+  "dataset": "ETTh1",
+  "target_column": "OT"
+}
