@@ -1,13 +1,13 @@
 {
   "model": "Chronos",
-  "model_version": "amazon/chronos-t5-tiny",
+  "model_version": "amazon/chronos-t5-large",
   "metrics": {
-    "mse": 9.983197934014925,
-    "mae": 2.440546308333675,
-    "rmse": 3.159619903408466,
-    "mape": 37.538973438650835,
-    "inference_time": 0.4097931385040283,
-    "inference_time_per_sample": 0.13659771283467612
+    "mse": 7.902270988144413,
+    "mae": 2.1308885365724564,
+    "rmse": 2.8110978261427353,
+    "mape": 31.91689966125284,
+    "inference_time": 1.8857910633087158,
+    "inference_time_per_sample": 0.6285970211029053
   },
   "num_samples": 3,
   "context_length": 96,
