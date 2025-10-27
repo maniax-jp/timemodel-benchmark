@@ -31,20 +31,20 @@ class TimesFMPredictor:
         print(f"TimesFMモデルを初期化中... (backend: {backend})")
         print(f"Context length: {context_length}, Horizon: {horizon_length}")
 
-        # ハイパーパラメータの設定
+        # ハイパーパラメータの設定 (TimesFM 2.0-500m用)
         hparams = TimesFmHparams(
             context_len=context_length,
             horizon_len=horizon_length,
             input_patch_len=32,
             output_patch_len=128,
-            num_layers=20,
+            num_layers=50,  # 500mモデルは50層
             model_dims=1280,
             backend=backend,
         )
 
-        # チェックポイントの設定
+        # チェックポイントの設定 (TimesFM 2.0-500m: 最大規模モデル)
         checkpoint = TimesFmCheckpoint(
-            huggingface_repo_id="google/timesfm-1.0-200m-pytorch"
+            huggingface_repo_id="google/timesfm-2.0-500m-pytorch"
         )
 
         # TimesFMモデルの初期化

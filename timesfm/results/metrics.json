@@ -1,13 +1,13 @@
 {
   "model": "TimesFM",
-  "model_version": "google/timesfm-1.0-200m-pytorch",
+  "model_version": "google/timesfm-2.0-500m-pytorch",
   "metrics": {
-    "mse": 5.975178486054877,
-    "mae": 1.8634406357175775,
-    "rmse": 2.44441782149756,
-    "mape": 27.33756942462441,
-    "inference_time": 0.01058506965637207,
-    "inference_time_per_sample": 0.0035283565521240234
+    "mse": 14.936177908641705,
+    "mae": 3.1783660877909927,
+    "rmse": 3.8647351666888774,
+    "mape": 44.540701624445234,
+    "inference_time": 0.021991968154907227,
+    "inference_time_per_sample": 0.007330656051635742
   },
   "num_samples": 3,
   "context_length": 96,

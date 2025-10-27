@@ -109,7 +109,7 @@ def run_timesfm_benchmark(
     # 結果を保存
     results_dict = {
         "model": "TimesFM",
-        "model_version": "google/timesfm-1.0-200m-pytorch",
+        "model_version": "google/timesfm-2.0-500m-pytorch",
         "metrics": metrics,
         "num_samples": num_samples,
         "context_length": data_loader.context_length,
